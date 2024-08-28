@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ruleset name="SWOOP">
+    <description>The SWOOP Analytics coding standard.</description>
+    <rule ref="PEAR">
+        <exclude name="Generic.PHP.DisallowShortOpenTag"/>
+        <exclude name="Generic.Files.LineLength"/>
+        <exclude name="Generic.Commenting.DocComment"/>
+        <exclude name="Generic.NamingConventions.CamelCapsFunctionName"/>
+
+        <exclude name="PEAR.Commenting.ClassComment"/>
+        <exclude name="PEAR.Commenting.FileComment"/>
+        <exclude name="PEAR.Commenting.FunctionComment"/>
+        <exclude name="PEAR.Functions.FunctionCallSignature"/>
+        <exclude name="PEAR.NamingConventions.ValidClassName"/>
+        <exclude name="PEAR.NamingConventions.ValidFunctionName"/>
+        <exclude name="PEAR.ControlStructures.MultiLineCondition"/>
+
+        <exclude name="Squiz.Commenting.DocCommentAlignment"/>
+    </rule>
+    <rule ref="SWOOP.PHP.AllowShortOpenTagWithEcho">
+        <severity>0</severity>
+    </rule>
+</ruleset>
