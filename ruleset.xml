@@ -20,4 +20,16 @@
     <rule ref="SWOOP.PHP.AllowShortOpenTagWithEcho">
         <severity>0</severity>
     </rule>
+    <rule ref="Generic.Commenting.DocComment">
+        <type>warning</type>
+    </rule>
+    <rule ref="Squiz.Commenting.DocCommentAlignment">
+        <type>warning</type>
+    </rule>
+    <rule ref="Generic.Files.LineLength">
+        <type>warning</type>
+    </rule>
+    <rule ref="PEAR.WhiteSpace">
+        <type>warning</type>
+    </rule>
 </ruleset>
