@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <ruleset name="SWOOP">
     <description>The SWOOP Analytics coding standard.</description>
+    <!-- Base coding standard based on PEAR -->
     <rule ref="PEAR">
+
+        <!-- Exemptions for SWOOP Coding Standard -->
         <exclude name="Generic.PHP.DisallowShortOpenTag"/>
         <exclude name="Generic.Files.LineLength"/>
         <exclude name="Generic.Commenting.DocComment"/>
@@ -17,9 +20,13 @@
 
         <exclude name="Squiz.Commenting.DocCommentAlignment"/>
     </rule>
+
+    <!-- Disabling for now -->
     <rule ref="SWOOP.PHP.AllowShortOpenTagWithEcho">
         <severity>0</severity>
     </rule>
+
+    <!-- Set errors to warnings -->
     <rule ref="Generic.Commenting">
         <type>warning</type>
     </rule>
