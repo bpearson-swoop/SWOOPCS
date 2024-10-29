@@ -25,6 +25,12 @@
     <rule ref="SWOOP.PHP.AllowShortOpenTagWithEcho">
         <severity>0</severity>
     </rule>
+    <rule ref="Squiz.Commenting.FileComment">
+        <severity>0</severity>
+    </rule>
+    <rule ref="Squiz.Commenting.ClassComment">
+        <severity>0</severity>
+    </rule>
 
     <!-- Set errors to warnings -->
     <rule ref="Generic.Commenting">
