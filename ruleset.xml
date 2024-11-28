@@ -25,10 +25,10 @@
     <rule ref="SWOOP.PHP.AllowShortOpenTagWithEcho">
         <severity>0</severity>
     </rule>
-    <rule ref="Squiz.Commenting.FileComment">
+    <rule ref="PEAR.Commenting.FileComment">
         <severity>0</severity>
     </rule>
-    <rule ref="Squiz.Commenting.ClassComment">
+    <rule ref="PEAR.Commenting.ClassComment">
         <severity>0</severity>
     </rule>
 
@@ -36,7 +36,7 @@
     <rule ref="Generic.Commenting">
         <type>warning</type>
     </rule>
-    <rule ref="Squiz.Commenting">
+    <rule ref="Squiz.Commenting.DocCommentAlignment">
         <type>warning</type>
     </rule>
     <rule ref="Generic.Files.LineLength">
